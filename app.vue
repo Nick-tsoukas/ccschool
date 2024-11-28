@@ -55,11 +55,10 @@
           <div class="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
              
-              <h1 class="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Learn by Doing</h1>
+              <h1 class="text-pretty text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">Learn by Doing</h1>
               <p class="mt-8 text-pretty text-lg font-medium text-gray-950 sm:text-xl/8">At Creativity Community School, we inspire students through hands-on projects and real-world challenges, fostering creativity, collaboration, and leadership for a brighter future.</p>
               <div class="mt-10 flex items-center gap-x-6">
-                <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+                <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Learn More</a>
               </div>
             </div>
           </div>
@@ -70,20 +69,21 @@
       </div>
     </div>
     <!-- feature secont  -->
-    <div class=" py-24 sm:py-32">
+    <div class=" bg-slate-50 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:text-center">
-        <h2 class="mt-2 text-pretty text-5xl font-semibold tracking-tight text-black sm:text-5xl lg:text-balance">Lead by Innovating</h2>
-        <p class="mt-6 text-lg/8 text-black">At Creativity Community School, our mission is to empower students to explore their passions, think critically, and innovate boldly. Through experiential learning and a supportive community, we nurture the leaders and problem-solvers of tomorrow.</p>
+      <div class=" max-w-4xl lg:text-left">
+        <h2 class="mt-2 text-pretty text-5xl font-semibold tracking-tight text-black sm:text-5xl lg:text-balance">Inovating Education</h2>
+        <p class="mt-6 text-2xl  text-black">At Creativity Community School, our mission is to empower students to explore their passions, think critically, and innovate boldly. Through experiential learning and a supportive community, we nurture the leaders and problem-solvers of tomorrow.</p>
       </div>
       <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
           <div v-for="feature in features" :key="feature.name" class="flex flex-col">
-            <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-white">
-              <component :is="feature.icon" class="size-5 flex-none text-indigo-400" aria-hidden="true" />
-              {{ feature.name }}
-            </dt>
-            <dd class="mt-4 flex flex-auto flex-col text-base/7 text-black">
+     
+              
+            <img src="@/assets/community.png" alt="">
+             <p  class="text-3xl pt-6 font-semibold text-black" > {{ feature.name }}</p>
+          
+            <dd class="mt-4 flex flex-auto flex-col text-lg text-black">
               <p class="flex-auto">{{ feature.description }}</p>
               <p class="mt-6">
                 <a :href="feature.href" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>
@@ -105,26 +105,26 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/vue/20/solid'
-
+// creativity community partner with us
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Community',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu.',
+      'Our community-driven, non-profit school is dedicated to transforming education through active, hands-on learning experiences. We foster a supportive environment where students explore their passions, build critical skills, and solve real-world problems.',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Creativity',
     description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+      'We believe creativity is the key to unlocking potential and solving tomorrow’s challenges. Our programs are designed to inspire innovative thinking, encouraging students to explore their imagination and approach problems from new perspectives.',
     href: '#',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Partner With Us',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod.',
+      'Join us in shaping the future of learning! By partnering with our non-profit school, you can play a vital role in empowering students through hands-on, innovative education. Whether you’re a business, organization, or individual, your support helps us provide resources, mentorship, and real-world opportunities that inspire creativity and foster success.',
     href: '#',
     icon: ArrowPathIcon,
   },
