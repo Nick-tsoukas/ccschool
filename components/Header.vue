@@ -9,7 +9,7 @@
               <img
                 alt="Creativity Community School"
                 class="h-8 w-auto"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                src="@/assets/logoschool.svg"
               />
             </NuxtLink>
             <button
@@ -43,7 +43,7 @@
               <span class="sr-only">Creativity Community School</span>
               <img
                 class="h-8 w-auto"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                 src="@/assets/logoschool.svg"
                 alt=""
               />
             </NuxtLink>

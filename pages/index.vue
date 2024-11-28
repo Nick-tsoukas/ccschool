@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-   <header class="absolute inset-x-0 top-0 z-50">
+   <!-- <header class="absolute inset-x-0 top-0 z-50">
       <div class="mx-auto max-w-7xl">
         <div class="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
           <nav class="flex items-center justify-between lg:justify-start" aria-label="Global">
@@ -80,7 +80,7 @@
           </div>
         </DialogPanel>
       </Dialog>
-    </header>
+    </header> -->
 
     <div class="relative">
       <div class="mx-auto max-w-7xl">
