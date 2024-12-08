@@ -64,7 +64,7 @@
       :key="feature.name"
       class="flex flex-col items-center text-center"
     >
-      <img :src="feature.image" :alt="feature.name" class="" />
+      <img :src="feature.image" :alt="feature.name" class="min-h-[480px] w-full object-cover" />
       <p class="text-3xl pt-6 font-semibold text-black">{{ feature.name }}</p>
       <dd class="mt-4 text-lg text-black">
         <p>{{ feature.description }}</p>
@@ -89,8 +89,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 // images 
 
-import communityImage from "@/assets/community.png";
-import creativityImage from "@/assets/creativity.png";
+import communityImage from "@/assets/garden.png";
+import creativityImage from "@/assets/handsonlearning.jpg";
 import partnershipImage from "@/assets/partnership.png";
 
 
