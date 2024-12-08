@@ -91,7 +91,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 import communityImage from "@/assets/garden.png";
 import creativityImage from "@/assets/handsonlearning.jpg";
-import partnershipImage from "@/assets/partnership.png";
+import partnershipImage from "@/assets/partnershipnew.png";
 
 
 const features = [
