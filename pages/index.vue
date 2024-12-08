@@ -16,10 +16,11 @@
               <h1 class="text-pretty text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl">
                 Learn by Doing
               </h1>
+              <h2 class="text-pretty text-3xl my-4 font-bold tracking-tight text-gray-900 sm:text-3xl">
+                Milwaukee’s first Project Based Middle and High School
+              </h2>
               <p class="mt-8 text-pretty text-lg font-medium text-gray-950 sm:text-xl/8">
-                At Creativity Community School, we inspire students through hands-on projects
-                and real-world challenges, fostering creativity, collaboration, and leadership
-                for a brighter future.
+                At Creativity Community School education goes beyond the classroom, inspiring students to explore, innovate, and engage with real-world challenges.
               </p>
               <div class="mt-10 flex items-center gap-x-6">
                 <NuxtLink
@@ -122,7 +123,7 @@ const navigation = [
   { name: "About", href: "/about" },
   { name: "Community", href: "/community" },
   { name: "Creativity", href: "/creativity" },
-  { name: "Partnership", href: "/partnership" },
+  { name: "Collaboration", href: "/collaboration" },
   { name: "Contact", href: "/contact" },
 ];
 
