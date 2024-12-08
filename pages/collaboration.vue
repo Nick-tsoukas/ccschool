@@ -3,8 +3,8 @@
     <div class="container mx-auto px-6 lg:px-8">
       <!-- Page Header -->
       <div class="text-center">
-        <h1 class="text-5xl font-bold text-gray-900">Partner With Us</h1>
-        <p class="mt-6 text-lg text-gray-700">
+        <h1 class="text-5xl my-10 font-bold text-gray-900">Collaborate</h1>
+        <p class="mt-6 text-lg text-gray-900">
           Join us in shaping the future of education. Your involvement can make a meaningful difference in our community.
         </p>
       </div>
@@ -14,7 +14,7 @@
         <!-- Volunteer Section -->
         <div>
           <h2 class="text-3xl font-semibold text-gray-900">Volunteer</h2>
-          <p class="mt-4 text-gray-700">
+          <p class="mt-4 text-lg text-gray-900">
             Share your time and talents to support our mission. Whether you’re helping in classrooms, mentoring students,
             or assisting with events, your efforts play a vital role in creating a positive impact.
           </p>
@@ -23,7 +23,7 @@
         <!-- Donate Section -->
         <div>
           <h2 class="text-3xl font-semibold text-gray-900">Donate</h2>
-          <p class="mt-4 text-gray-700">
+          <p class="mt-4 text-lg text-gray-900">
             Your generosity helps us provide resources, programs, and opportunities that empower our students to succeed.
             Every contribution, big or small, makes a difference.
           </p>

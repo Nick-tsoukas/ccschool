@@ -95,7 +95,7 @@ const navigation = [
   { name: "About", href: "/about" },
   { name: "Community", href: "/community" },
   { name: "Creativity", href: "/creativity" },
-  { name: "Partnership", href: "/partnership" },
+  { name: "Collaboration", href: "/collaboration" },
   { name: "Contact", href: "/contact" },
 ];
 
