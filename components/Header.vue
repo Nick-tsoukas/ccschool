@@ -8,8 +8,8 @@
               <span class="sr-only">Creativity Community School</span>
               <img
                 alt="Creativity Community School"
-                class="h-20 w-auto absolute top-4 left-4 rotate-180"
-                src="@/assets/logoschool.svg"
+                class="h-20 w-auto absolute top-4 left-8"
+                src="@/assets/greenlogo.png"
               />
             </NuxtLink>
             <button
