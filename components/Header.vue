@@ -8,7 +8,7 @@
               <span class="sr-only">Creativity Community School</span>
               <img
                 alt="Creativity Community School"
-                class="h-8 w-auto"
+                class="h-20 w-auto absolute top-4 left-4 rotate-180"
                 src="@/assets/logoschool.svg"
               />
             </NuxtLink>
@@ -20,7 +20,7 @@
               <span class="sr-only">Open main menu</span>
               <Bars3Icon class="size-6" aria-hidden="true" />
             </button>
-            <div class="hidden lg:ml-12 lg:flex lg:gap-x-14">
+            <div class="hidden xl:ml-12 xl:flex xl:gap-x-14">
               <NuxtLink
                 v-for="item in navigation"
                 :key="item.name"
