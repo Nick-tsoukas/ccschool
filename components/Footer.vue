@@ -8,7 +8,7 @@
           <NuxtLink to="/" class="inline-flex items-center">
             <img
               class="h-12 w-12 rounded-full"
-              src="https://picsum.photos/100"
+              src="@/assets/greenlogo.png"
               alt="Creativity Community School"
             />
             <span class="ml-4 text-xl font-semibold">
@@ -16,7 +16,7 @@
             </span>
           </NuxtLink>
           <p class="mt-4 text-gray-400">
-            Inspiring creativity, collaboration, and leadership for a brighter future.
+            Preparing students to be compassionate community leaders who drive positive change in Milwaukee and beyond.
           </p>
         </div>
 

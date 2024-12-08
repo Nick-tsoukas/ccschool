@@ -105,12 +105,12 @@ const features = [
   {
     name: "Creativity",
     description:
-      "We believe creativity is the key to solving tomorrow’s challenges.",
+      "Creative problem solving is the solution to tomorrow’s challenges.",
     href: "/creativity",
     image: creativityImage,
   },
   {
-    name: "Partner With Us",
+    name: "Collaboration",
     description:
       "Join us in shaping the future of learning! By partnering, you can play a vital role.",
     href: "/collaboration",
