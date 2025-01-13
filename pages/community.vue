@@ -12,7 +12,7 @@
       </div>
       <div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-3 lg:gap-x-12">
         <div v-for="section in sections" :key="section.title" class="text-center">
-          <img :src="section.image" :alt="section.title" class="w-20 h-20 mx-auto mb-6 rounded-full object-cover" />
+          <!-- <img :src="section.image" :alt="section.title" class="w-20 h-20 mx-auto mb-6 rounded-full object-cover" /> -->
           <h2 class="text-2xl font-semibold text-gray-900">{{ section.title }}</h2>
           <p class="mt-4 text-gray-700">{{ section.description }}</p>
         </div>
@@ -26,17 +26,17 @@ const sections = [
   {
     title: "Engaged Students",
     description: "Our students are active participants in their own learning, exploring new ideas and collaborating on meaningful projects.",
-    image: "https://picsum.photos/80?random=1",
+    // image: "https://picsum.photos/80?random=1",
   },
   {
     title: "Dedicated Educators",
     description: "Our teachers are passionate about guiding students through hands-on experiences that spark curiosity and inspire growth.",
-    image: "https://picsum.photos/80?random=2",
+    // image: "https://picsum.photos/80?random=2",
   },
   {
     title: "Community Partners",
     description: "We collaborate with local businesses and organizations to provide real-world opportunities for students to learn and thrive.",
-    image: "https://picsum.photos/80?random=3",
+
   },
 ];
 </script>
