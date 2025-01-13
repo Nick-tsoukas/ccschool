@@ -73,7 +73,7 @@
       <div class="mt-16 text-center">
         <NuxtLink
           to="/contact"
-          class="rounded-md bg-indigo-600 px-6 py-3 text-white font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          class="rounded-md bg-[#4abeca] px-6 py-3 text-white font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Get in Touch
         </NuxtLink>

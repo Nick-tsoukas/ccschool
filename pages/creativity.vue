@@ -34,25 +34,25 @@
           </p>
           <ul class="mt-4 space-y-3">
             <li class="flex items-start">
-              <span class="inline-block h-6 w-6 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
+              <span class="inline-block h-6 w-6 bg-[#4abeca] rounded-full flex items-center justify-center text-black font-bold">
                 ✓
               </span>
               <p class="ml-3 text-gray-700">Project-Based Learning</p>
             </li>
             <li class="flex items-start">
-              <span class="inline-block h-6 w-6 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
+              <span class="inline-block h-6 w-6 bg-[#4abeca] rounded-full flex items-center justify-center text-black font-bold">
                 ✓
               </span>
               <p class="ml-3 text-gray-700">Art and Design Opportunities</p>
             </li>
             <li class="flex items-start">
-              <span class="inline-block h-6 w-6 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
+              <span class="inline-block h-6 w-6 bg-[#4abeca] rounded-full flex items-center justify-center text-black font-bold">
                 ✓
               </span>
               <p class="ml-3 text-gray-700">Real-World Problem Solving</p>
             </li>
             <li class="flex items-start">
-              <span class="inline-block h-6 w-6 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
+              <span class="inline-block h-6 w-6 bg-[#4abeca] rounded-full flex items-center justify-center text-black font-bold">
                 ✓
               </span>
               <p class="ml-3 text-gray-700">Collaborative Teamwork</p>
@@ -65,7 +65,7 @@
       <div class="mt-16 text-center">
         <NuxtLink
           to="/community"
-          class="inline-block rounded-md bg-indigo-600 px-6 py-3 text-white font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          class="inline-block rounded-md bg-[#4abeca] px-6 py-3 text-white font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Learn More About Our Community
         </NuxtLink>
