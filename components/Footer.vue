@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-gray-900 text-white py-12">
-    <div class="container mx-auto px-6 lg:px-8">
+    <div class="container mx-auto px-6 lg:px-8 max-w-screen">
       <!-- Top Section -->
       <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
         <!-- Logo and Description -->
