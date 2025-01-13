@@ -44,8 +44,8 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/partnership" class="hover:underline">
-                Partnership
+              <NuxtLink to="/collaboration" class="hover:underline">
+                Collaboration
               </NuxtLink>
             </li>
             <li>
