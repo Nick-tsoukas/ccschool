@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="relative">
+    <div class="relative overflow-x-hidden">
       <div class="mx-auto max-w-7xl">
         <div class="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
           <svg
