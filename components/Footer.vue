@@ -16,7 +16,8 @@
             </span>
           </NuxtLink>
           <p class="mt-4 text-gray-400">
-            Preparing students to be compassionate community leaders who drive positive change in Milwaukee and beyond.
+            Preparing students to be compassionate community leaders who drive
+            positive change in Milwaukee and beyond.
           </p>
         </div>
 
@@ -24,24 +25,16 @@
         <nav class="lg:w-1/3">
           <ul class="flex flex-col gap-4 lg:flex-row lg:justify-center lg:gap-8">
             <li>
-              <NuxtLink to="/" class="hover:underline">
-                Home
-              </NuxtLink>
+              <NuxtLink to="/" class="hover:underline">Home</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/about" class="hover:underline">
-                About
-              </NuxtLink>
+              <NuxtLink to="/about" class="hover:underline">About</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/community" class="hover:underline">
-                Community
-              </NuxtLink>
+              <NuxtLink to="/community" class="hover:underline">Community</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/creativity" class="hover:underline">
-                Creativity
-              </NuxtLink>
+              <NuxtLink to="/creativity" class="hover:underline">Creativity</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/collaboration" class="hover:underline">
@@ -49,23 +42,45 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/contact" class="hover:underline">
-                Contact
-              </NuxtLink>
+              <NuxtLink to="/contact" class="hover:underline">Contact</NuxtLink>
             </li>
           </ul>
         </nav>
       </div>
 
       <!-- Bottom Section -->
-      <div class="mt-8 border-t border-gray-700 pt-6 text-center">
-        <p class="text-sm text-gray-400">
-          © 2024 Creativity Community School. All rights reserved.
-        </p>
+      <div class="mt-8 border-t border-gray-700 pt-6">
+        <div class="text-center">
+          <p class="text-sm text-gray-400">
+            © 2024 Creativity Community School. All rights reserved.
+          </p>
+
+          <!-- Short nondiscrimination statement -->
+          <p class="mt-4 text-xs text-gray-500 max-w-3xl mx-auto">
+            Creativity Community School does not discriminate on the basis of
+            race, color, national origin, sex, disability, religion, sexual
+            orientation, gender identity, or age in its educational programs,
+            admissions, or any other school-administered programs.
+            <NuxtLink
+              to="/non-discrimination"
+              class="ml-1 underline hover:text-gray-300"
+            >
+              Read our full non-discrimination policy.
+            </NuxtLink>
+          </p>
+        </div>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup>
+// no extra logic needed
+</script>
+
+<style scoped>
+/* custom styles if needed */
+</style>
 
 
 <script setup>
