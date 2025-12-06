@@ -65,12 +65,12 @@
 
       <!-- Bottom Section -->
       <div class="mt-8 border-t border-gray-700 pt-6">
-        <div class="text-center">
+        <div class="text-left">
           <p class="text-sm text-gray-400">
             © 2024 Creativity Community School. All rights reserved.
           </p>
 
-          <p class="mt-4 text-xs text-gray-500 max-w-3xl mx-auto">
+          <p class="mt-4 text-xs text-gray-500 max-w-3xl">
             Creativity Community School does not discriminate on the basis of
             race, color, national origin, sex, disability, religion, sexual
             orientation, gender identity, or age in its educational programs,
