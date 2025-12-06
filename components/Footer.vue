@@ -1,10 +1,12 @@
 <template>
-  <footer class="bg-gray-900 text-white py-12">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <footer class="bg-gray-900 text-white py-12 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Top Section -->
-      <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
+      <div
+        class="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between"
+      >
         <!-- Logo and Description -->
-        <div class="mb-8 lg:mb-0 lg:w-1/3">
+        <div class="lg:w-1/3">
           <NuxtLink to="/" class="inline-flex items-center">
             <img
               class="h-12 w-12 rounded-full"
@@ -22,8 +24,10 @@
         </div>
 
         <!-- Navigation Links -->
-        <nav class="lg:w-1/3">
-          <ul class="flex flex-col gap-4 lg:flex-row lg:justify-center lg:gap-8">
+        <nav class="lg:w-1/2">
+          <ul
+            class="flex flex-wrap gap-x-6 gap-y-3 justify-start lg:justify-center"
+          >
             <li>
               <NuxtLink to="/" class="hover:underline">Home</NuxtLink>
             </li>
@@ -31,10 +35,14 @@
               <NuxtLink to="/about" class="hover:underline">About</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/community" class="hover:underline">Community</NuxtLink>
+              <NuxtLink to="/community" class="hover:underline">
+                Community
+              </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/creativity" class="hover:underline">Creativity</NuxtLink>
+              <NuxtLink to="/creativity" class="hover:underline">
+                Creativity
+              </NuxtLink>
             </li>
             <li>
               <NuxtLink to="/collaboration" class="hover:underline">
@@ -42,7 +50,14 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/contact" class="hover:underline">Contact</NuxtLink>
+              <NuxtLink to="/contact" class="hover:underline">
+                Contact
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/non-discrimination" class="hover:underline">
+                Non-Discrimination
+              </NuxtLink>
             </li>
           </ul>
         </nav>
@@ -55,7 +70,6 @@
             © 2024 Creativity Community School. All rights reserved.
           </p>
 
-          <!-- Short nondiscrimination statement -->
           <p class="mt-4 text-xs text-gray-500 max-w-3xl mx-auto">
             Creativity Community School does not discriminate on the basis of
             race, color, national origin, sex, disability, religion, sexual
@@ -75,18 +89,9 @@
 </template>
 
 <script setup>
-// no extra logic needed
+// nothing extra here
 </script>
 
 <style scoped>
-/* custom styles if needed */
-</style>
-
-
-<script setup>
-// No additional logic needed for this footer
-</script>
-
-<style scoped>
-/* Add any custom styles here if necessary */
+/* no special styles needed; Tailwind handles layout */
 </style>
